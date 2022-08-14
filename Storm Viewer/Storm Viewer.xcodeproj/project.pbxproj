@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052532DD28A9291500DE9FEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052532DC28A9291500DE9FEA /* AppDelegate.swift */; };
+		052532DF28A9291500DE9FEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052532DE28A9291500DE9FEA /* SceneDelegate.swift */; };
+		052532E128A9291500DE9FEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052532E028A9291500DE9FEA /* ViewController.swift */; };
+		052532E428A9291500DE9FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052532E228A9291500DE9FEA /* Main.storyboard */; };
+		052532E628A9291800DE9FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052532E528A9291800DE9FEA /* Assets.xcassets */; };
+		052532E928A9291800DE9FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052532E728A9291800DE9FEA /* LaunchScreen.storyboard */; };
+		052532F428A9291800DE9FEA /* Storm_ViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052532F328A9291800DE9FEA /* Storm_ViewerTests.swift */; };
+		052532FE28A9291800DE9FEA /* Storm_ViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052532FD28A9291800DE9FEA /* Storm_ViewerUITests.swift */; };
+		0525330028A9291800DE9FEA /* Storm_ViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052532FF28A9291800DE9FEA /* Storm_ViewerUITestsLaunchTests.swift */; };
+		0525331728A929BD00DE9FEA /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0525330D28A929BD00DE9FEA /* nssl0049.jpg */; };
+		0525331828A929BD00DE9FEA /* nssl0046.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0525330E28A929BD00DE9FEA /* nssl0046.jpg */; };
+		0525331928A929BD00DE9FEA /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0525330F28A929BD00DE9FEA /* nssl0091.jpg */; };
+		0525331A28A929BD00DE9FEA /* nssl0045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0525331028A929BD00DE9FEA /* nssl0045.jpg */; };
+		0525331B28A929BD00DE9FEA /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0525331128A929BD00DE9FEA /* nssl0051.jpg */; };
+		0525331C28A929BD00DE9FEA /* nssl0041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0525331228A929BD00DE9FEA /* nssl0041.jpg */; };
+		0525331D28A929BD00DE9FEA /* nssl0042.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0525331328A929BD00DE9FEA /* nssl0042.jpg */; };
+		0525331E28A929BD00DE9FEA /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0525331428A929BD00DE9FEA /* nssl0043.jpg */; };
+		0525331F28A929BD00DE9FEA /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0525331528A929BD00DE9FEA /* nssl0033.jpg */; };
+		0525332028A929BD00DE9FEA /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0525331628A929BD00DE9FEA /* nssl0034.jpg */; };
+		0525332228A9331400DE9FEA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525332128A9331400DE9FEA /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		052532F028A9291800DE9FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 052532D128A9291500DE9FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052532D828A9291500DE9FEA;
+			remoteInfo = "Storm Viewer";
+		};
+		052532FA28A9291800DE9FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 052532D128A9291500DE9FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052532D828A9291500DE9FEA;
+			remoteInfo = "Storm Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052532D928A9291500DE9FEA /* Storm Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storm Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		052532DC28A9291500DE9FEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		052532DE28A9291500DE9FEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		052532E028A9291500DE9FEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		052532E328A9291500DE9FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		052532E528A9291800DE9FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		052532E828A9291800DE9FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		052532EA28A9291800DE9FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052532EF28A9291800DE9FEA /* Storm ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storm ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		052532F328A9291800DE9FEA /* Storm_ViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storm_ViewerTests.swift; sourceTree = "<group>"; };
+		052532F928A9291800DE9FEA /* Storm ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storm ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		052532FD28A9291800DE9FEA /* Storm_ViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storm_ViewerUITests.swift; sourceTree = "<group>"; };
+		052532FF28A9291800DE9FEA /* Storm_ViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storm_ViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0525330D28A929BD00DE9FEA /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
+		0525330E28A929BD00DE9FEA /* nssl0046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0046.jpg; sourceTree = "<group>"; };
+		0525330F28A929BD00DE9FEA /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
+		0525331028A929BD00DE9FEA /* nssl0045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0045.jpg; sourceTree = "<group>"; };
+		0525331128A929BD00DE9FEA /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
+		0525331228A929BD00DE9FEA /* nssl0041.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0041.jpg; sourceTree = "<group>"; };
+		0525331328A929BD00DE9FEA /* nssl0042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0042.jpg; sourceTree = "<group>"; };
+		0525331428A929BD00DE9FEA /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
+		0525331528A929BD00DE9FEA /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
+		0525331628A929BD00DE9FEA /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
+		0525332128A9331400DE9FEA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		052532D628A9291500DE9FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052532EC28A9291800DE9FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052532F628A9291800DE9FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		052532D028A9291500DE9FEA = {
+			isa = PBXGroup;
+			children = (
+				052532DB28A9291500DE9FEA /* Storm Viewer */,
+				052532F228A9291800DE9FEA /* Storm ViewerTests */,
+				052532FC28A9291800DE9FEA /* Storm ViewerUITests */,
+				052532DA28A9291500DE9FEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		052532DA28A9291500DE9FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				052532D928A9291500DE9FEA /* Storm Viewer.app */,
+				052532EF28A9291800DE9FEA /* Storm ViewerTests.xctest */,
+				052532F928A9291800DE9FEA /* Storm ViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		052532DB28A9291500DE9FEA /* Storm Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				052532DC28A9291500DE9FEA /* AppDelegate.swift */,
+				052532DE28A9291500DE9FEA /* SceneDelegate.swift */,
+				052532E028A9291500DE9FEA /* ViewController.swift */,
+				052532E228A9291500DE9FEA /* Main.storyboard */,
+				0525332128A9331400DE9FEA /* DetailViewController.swift */,
+				052532E528A9291800DE9FEA /* Assets.xcassets */,
+				052532E728A9291800DE9FEA /* LaunchScreen.storyboard */,
+				052532EA28A9291800DE9FEA /* Info.plist */,
+				0525330C28A929BD00DE9FEA /* Content */,
+			);
+			path = "Storm Viewer";
+			sourceTree = "<group>";
+		};
+		052532F228A9291800DE9FEA /* Storm ViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				052532F328A9291800DE9FEA /* Storm_ViewerTests.swift */,
+			);
+			path = "Storm ViewerTests";
+			sourceTree = "<group>";
+		};
+		052532FC28A9291800DE9FEA /* Storm ViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				052532FD28A9291800DE9FEA /* Storm_ViewerUITests.swift */,
+				052532FF28A9291800DE9FEA /* Storm_ViewerUITestsLaunchTests.swift */,
+			);
+			path = "Storm ViewerUITests";
+			sourceTree = "<group>";
+		};
+		0525330C28A929BD00DE9FEA /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				0525330D28A929BD00DE9FEA /* nssl0049.jpg */,
+				0525330E28A929BD00DE9FEA /* nssl0046.jpg */,
+				0525330F28A929BD00DE9FEA /* nssl0091.jpg */,
+				0525331028A929BD00DE9FEA /* nssl0045.jpg */,
+				0525331128A929BD00DE9FEA /* nssl0051.jpg */,
+				0525331228A929BD00DE9FEA /* nssl0041.jpg */,
+				0525331328A929BD00DE9FEA /* nssl0042.jpg */,
+				0525331428A929BD00DE9FEA /* nssl0043.jpg */,
+				0525331528A929BD00DE9FEA /* nssl0033.jpg */,
+				0525331628A929BD00DE9FEA /* nssl0034.jpg */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		052532D828A9291500DE9FEA /* Storm Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0525330328A9291800DE9FEA /* Build configuration list for PBXNativeTarget "Storm Viewer" */;
+			buildPhases = (
+				052532D528A9291500DE9FEA /* Sources */,
+				052532D628A9291500DE9FEA /* Frameworks */,
+				052532D728A9291500DE9FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Storm Viewer";
+			productName = "Storm Viewer";
+			productReference = 052532D928A9291500DE9FEA /* Storm Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		052532EE28A9291800DE9FEA /* Storm ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0525330628A9291800DE9FEA /* Build configuration list for PBXNativeTarget "Storm ViewerTests" */;
+			buildPhases = (
+				052532EB28A9291800DE9FEA /* Sources */,
+				052532EC28A9291800DE9FEA /* Frameworks */,
+				052532ED28A9291800DE9FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052532F128A9291800DE9FEA /* PBXTargetDependency */,
+			);
+			name = "Storm ViewerTests";
+			productName = "Storm ViewerTests";
+			productReference = 052532EF28A9291800DE9FEA /* Storm ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		052532F828A9291800DE9FEA /* Storm ViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0525330928A9291800DE9FEA /* Build configuration list for PBXNativeTarget "Storm ViewerUITests" */;
+			buildPhases = (
+				052532F528A9291800DE9FEA /* Sources */,
+				052532F628A9291800DE9FEA /* Frameworks */,
+				052532F728A9291800DE9FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052532FB28A9291800DE9FEA /* PBXTargetDependency */,
+			);
+			name = "Storm ViewerUITests";
+			productName = "Storm ViewerUITests";
+			productReference = 052532F928A9291800DE9FEA /* Storm ViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		052532D128A9291500DE9FEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					052532D828A9291500DE9FEA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					052532EE28A9291800DE9FEA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 052532D828A9291500DE9FEA;
+					};
+					052532F828A9291800DE9FEA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 052532D828A9291500DE9FEA;
+					};
+				};
+			};
+			buildConfigurationList = 052532D428A9291500DE9FEA /* Build configuration list for PBXProject "Storm Viewer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 052532D028A9291500DE9FEA;
+			productRefGroup = 052532DA28A9291500DE9FEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				052532D828A9291500DE9FEA /* Storm Viewer */,
+				052532EE28A9291800DE9FEA /* Storm ViewerTests */,
+				052532F828A9291800DE9FEA /* Storm ViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		052532D728A9291500DE9FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0525331828A929BD00DE9FEA /* nssl0046.jpg in Resources */,
+				0525331F28A929BD00DE9FEA /* nssl0033.jpg in Resources */,
+				0525331B28A929BD00DE9FEA /* nssl0051.jpg in Resources */,
+				0525331928A929BD00DE9FEA /* nssl0091.jpg in Resources */,
+				0525331E28A929BD00DE9FEA /* nssl0043.jpg in Resources */,
+				0525332028A929BD00DE9FEA /* nssl0034.jpg in Resources */,
+				0525331728A929BD00DE9FEA /* nssl0049.jpg in Resources */,
+				0525331C28A929BD00DE9FEA /* nssl0041.jpg in Resources */,
+				0525331D28A929BD00DE9FEA /* nssl0042.jpg in Resources */,
+				052532E928A9291800DE9FEA /* LaunchScreen.storyboard in Resources */,
+				052532E628A9291800DE9FEA /* Assets.xcassets in Resources */,
+				0525331A28A929BD00DE9FEA /* nssl0045.jpg in Resources */,
+				052532E428A9291500DE9FEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052532ED28A9291800DE9FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052532F728A9291800DE9FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		052532D528A9291500DE9FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052532E128A9291500DE9FEA /* ViewController.swift in Sources */,
+				052532DD28A9291500DE9FEA /* AppDelegate.swift in Sources */,
+				052532DF28A9291500DE9FEA /* SceneDelegate.swift in Sources */,
+				0525332228A9331400DE9FEA /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052532EB28A9291800DE9FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052532F428A9291800DE9FEA /* Storm_ViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052532F528A9291800DE9FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0525330028A9291800DE9FEA /* Storm_ViewerUITestsLaunchTests.swift in Sources */,
+				052532FE28A9291800DE9FEA /* Storm_ViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		052532F128A9291800DE9FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052532D828A9291500DE9FEA /* Storm Viewer */;
+			targetProxy = 052532F028A9291800DE9FEA /* PBXContainerItemProxy */;
+		};
+		052532FB28A9291800DE9FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052532D828A9291500DE9FEA /* Storm Viewer */;
+			targetProxy = 052532FA28A9291800DE9FEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		052532E228A9291500DE9FEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052532E328A9291500DE9FEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		052532E728A9291800DE9FEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052532E828A9291800DE9FEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0525330128A9291800DE9FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0525330228A9291800DE9FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0525330428A9291800DE9FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Storm Viewer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apoorv.Storm-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0525330528A9291800DE9FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Storm Viewer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apoorv.Storm-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0525330728A9291800DE9FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apoorv.Storm-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Storm Viewer.app/Storm Viewer";
+			};
+			name = Debug;
+		};
+		0525330828A9291800DE9FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apoorv.Storm-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Storm Viewer.app/Storm Viewer";
+			};
+			name = Release;
+		};
+		0525330A28A9291800DE9FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apoorv.Storm-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Storm Viewer";
+			};
+			name = Debug;
+		};
+		0525330B28A9291800DE9FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apoorv.Storm-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Storm Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		052532D428A9291500DE9FEA /* Build configuration list for PBXProject "Storm Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0525330128A9291800DE9FEA /* Debug */,
+				0525330228A9291800DE9FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0525330328A9291800DE9FEA /* Build configuration list for PBXNativeTarget "Storm Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0525330428A9291800DE9FEA /* Debug */,
+				0525330528A9291800DE9FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0525330628A9291800DE9FEA /* Build configuration list for PBXNativeTarget "Storm ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0525330728A9291800DE9FEA /* Debug */,
+				0525330828A9291800DE9FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0525330928A9291800DE9FEA /* Build configuration list for PBXNativeTarget "Storm ViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0525330A28A9291800DE9FEA /* Debug */,
+				0525330B28A9291800DE9FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 052532D128A9291500DE9FEA /* Project object */;
+}
